@@ -12,20 +12,20 @@ Thats it, now you have the result on the screen.
 
 
 ## Changing the input text
-This application will read the ``input`` file by default,
-if you want to test some paragraphs be free to modify the mentioned file.
+This application will read the ``input`` file by default, 
+if you want to test some paragraphs feel free to modify the mentioned file.
 
-If you have another files you can use them too, just given their names as a parameter, e.g.
+If you have other files you can use them too, just set the file names as a parameter, e.g. 
 ```python counter.py example1.txt example2.txt```.
-Just be aware to type the correct names and to have the files in the same folder.
+Be aware to type the correct names and to have the files in the same folder.
 
 
 ## Algorithm Complexity
 
 ### time
-The provided algorithm works in ``O(log N)`` complexity. 
-This is because the words are display in order according to the number of times they appear.
-For do that it is mandatory to sort the data what give us this complexity.
+The provided algorithm works in ``O(log N)`` complexity.
+This is because the words are displayed in order according to the number of times they appear.
+In order to do that, it is mandatory to sort the data which gives us this complexity.
 
 ### space
 The algorithm spends ``O(N)`` space in the worse case, this is when all words are unique.
